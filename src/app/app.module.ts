@@ -3,17 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LineComponent } from './line/line.component';
-import { HttpClientModule } from '@angular/common/http';
+import { FormComponent } from './form/form.component';
 @NgModule({
   declarations: [
     AppComponent,
-    LineComponent
+    FormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
